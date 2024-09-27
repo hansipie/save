@@ -27,7 +27,7 @@ positional arguments:
   filename            filename to save the input. Use quotes if you have spaces. Resulting format is filename.txt by default
 
 options:
-  --ext            Custom file extension.
+  --ext           Custom file extension.
   --silent        Don't use STDOUT for output, only save to the file.
   --help          show this help message and exit.
 ```
