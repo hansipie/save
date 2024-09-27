@@ -31,7 +31,6 @@ def main(
                     break  # EOF
                 # write to file
                 file.write(input_line)
-                file.flush()
                 # write to stdout if not silent
                 if not silent:
                     sys.stdout.write(input_line)
